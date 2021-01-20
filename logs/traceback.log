@@ -1,0 +1,123 @@
+20/Jan/2021 23:38:26 [Thread-2:123145459728384] [django.request:228] [ERROR]- Internal Server Error: /docs/
+Traceback (most recent call last):
+  File "/Users/kobetian/.virtualenvs/Renogyro/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/kobetian/.virtualenvs/Renogyro/lib/python3.6/site-packages/django/utils/deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "/Users/kobetian/RenogyPyPro/config/middleware/BcTokenAuthMiddleWare.py", line 17, in process_request
+    if request.META.get("HTTP_REFERER").find("docs") != -1:
+AttributeError: 'NoneType' object has no attribute 'find'
+20/Jan/2021 23:38:32 [Thread-2:123145459728384] [django.request:228] [ERROR]- Internal Server Error: /docs/
+Traceback (most recent call last):
+  File "/Users/kobetian/.virtualenvs/Renogyro/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/kobetian/.virtualenvs/Renogyro/lib/python3.6/site-packages/django/utils/deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "/Users/kobetian/RenogyPyPro/config/middleware/BcTokenAuthMiddleWare.py", line 17, in process_request
+    if request.META.get("HTTP_REFERER").find("docs") != -1:
+AttributeError: 'NoneType' object has no attribute 'find'
+20/Jan/2021 23:49:20 [Thread-2:123145431117824] [django.request:228] [ERROR]- Internal Server Error: /api/v1/orders/refund
+Traceback (most recent call last):
+  File "/Users/kobetian/.virtualenvs/Renogyro/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/kobetian/.virtualenvs/Renogyro/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/kobetian/.virtualenvs/Renogyro/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/kobetian/.virtualenvs/Renogyro/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/kobetian/.virtualenvs/Renogyro/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/kobetian/.virtualenvs/Renogyro/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/kobetian/.virtualenvs/Renogyro/lib/python3.6/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/kobetian/.virtualenvs/Renogyro/lib/python3.6/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/kobetian/.virtualenvs/Renogyro/lib/python3.6/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/kobetian/.virtualenvs/Renogyro/lib/python3.6/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/kobetian/RenogyPyPro/applications/core/orders/views.py", line 29, in post
+    json_data = json.dumps(request.body)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/json/__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/json/encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'bytes' is not JSON serializable
+20/Jan/2021 23:56:33 [Thread-2:123145477935104] [django.request:228] [ERROR]- Internal Server Error: /api/v1/orders/refund
+Traceback (most recent call last):
+  File "/Users/kobetian/.virtualenvs/Renogyro/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/kobetian/.virtualenvs/Renogyro/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/kobetian/.virtualenvs/Renogyro/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/kobetian/.virtualenvs/Renogyro/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/kobetian/.virtualenvs/Renogyro/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/kobetian/.virtualenvs/Renogyro/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/kobetian/.virtualenvs/Renogyro/lib/python3.6/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/kobetian/.virtualenvs/Renogyro/lib/python3.6/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/kobetian/.virtualenvs/Renogyro/lib/python3.6/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/kobetian/.virtualenvs/Renogyro/lib/python3.6/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/kobetian/RenogyPyPro/applications/core/orders/views.py", line 29, in post
+    json_data = json.dumps(request.body)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/json/__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/json/encoder.py", line 180, in default
+    o.__class__.__name__)
+TypeError: Object of type 'bytes' is not JSON serializable
+21/Jan/2021 00:42:55 [Thread-2:123145517277184] [django.request:228] [ERROR]- Internal Server Error: /api/v1/orders/refund
+Traceback (most recent call last):
+  File "/Users/kobetian/.virtualenvs/Renogyro/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/kobetian/.virtualenvs/Renogyro/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/kobetian/.virtualenvs/Renogyro/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/kobetian/.virtualenvs/Renogyro/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/kobetian/.virtualenvs/Renogyro/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/kobetian/.virtualenvs/Renogyro/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/kobetian/.virtualenvs/Renogyro/lib/python3.6/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/kobetian/.virtualenvs/Renogyro/lib/python3.6/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/kobetian/.virtualenvs/Renogyro/lib/python3.6/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/kobetian/.virtualenvs/Renogyro/lib/python3.6/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/kobetian/RenogyPyPro/applications/core/orders/views.py", line 63, in post
+    store_hash=store_hash
+  File "/Users/kobetian/.virtualenvs/Renogyro/lib/python3.6/site-packages/tenacity/__init__.py", line 292, in wrapped_f
+    return self.call(f, *args, **kw)
+  File "/Users/kobetian/.virtualenvs/Renogyro/lib/python3.6/site-packages/tenacity/__init__.py", line 358, in call
+    do = self.iter(retry_state=retry_state)
+  File "/Users/kobetian/.virtualenvs/Renogyro/lib/python3.6/site-packages/tenacity/__init__.py", line 331, in iter
+    raise retry_exc.reraise()
+  File "/Users/kobetian/.virtualenvs/Renogyro/lib/python3.6/site-packages/tenacity/__init__.py", line 167, in reraise
+    raise self.last_attempt.result()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/concurrent/futures/_base.py", line 425, in result
+    return self.__get_result()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/concurrent/futures/_base.py", line 384, in __get_result
+    raise self._exception
+  File "/Users/kobetian/.virtualenvs/Renogyro/lib/python3.6/site-packages/tenacity/__init__.py", line 361, in call
+    result = fn(*args, **kwargs)
+TypeError: get_order_product_by_order_id() missing 1 required positional argument: 'result'

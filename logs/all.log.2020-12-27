@@ -1,0 +1,102 @@
+27/Dec/2020 07:18:30 [MainThread:4653757888] [django.utils.autoreload:617] [INFO]- Watching for file changes with StatReloader
+27/Dec/2020 07:20:07 [MainThread:4653757888] [django.utils.autoreload:240] [INFO]- /Users/kobetian/RenogyPyPro/config/settings.py changed, reloading.
+27/Dec/2020 07:20:07 [MainThread:4520408512] [django.utils.autoreload:617] [INFO]- Watching for file changes with StatReloader
+27/Dec/2020 07:20:39 [MainThread:4520408512] [django.utils.autoreload:240] [INFO]- /Users/kobetian/RenogyPyPro/config/settings.py changed, reloading.
+27/Dec/2020 15:20:40 [MainThread:4611241408] [django.utils.autoreload:617] [INFO]- Watching for file changes with StatReloader
+27/Dec/2020 15:24:36 [MainThread:4611241408] [django.utils.autoreload:240] [INFO]- /Users/kobetian/RenogyPyPro/applications/routers/urls.py changed, reloading.
+27/Dec/2020 15:24:37 [MainThread:4604626368] [django.utils.autoreload:617] [INFO]- Watching for file changes with StatReloader
+27/Dec/2020 15:24:46 [Thread-1:123145528713216] [django.server:157] [INFO]- "GET /api/v1/heatCheck HTTP/1.1" 301 0
+27/Dec/2020 15:24:46 [Thread-1:123145528713216] [django.server:157] [INFO]- "GET /api/v1/heatCheck/ HTTP/1.1" 200 42
+27/Dec/2020 15:27:33 [MainThread:4604626368] [django.utils.autoreload:240] [INFO]- /Users/kobetian/RenogyPyPro/applications/routers/urls.py changed, reloading.
+27/Dec/2020 15:27:33 [MainThread:4476024256] [django.utils.autoreload:617] [INFO]- Watching for file changes with StatReloader
+27/Dec/2020 15:33:22 [MainThread:4476024256] [django.utils.autoreload:240] [INFO]- /Users/kobetian/RenogyPyPro/config/settings.py changed, reloading.
+27/Dec/2020 15:33:23 [MainThread:4697265600] [django.utils.autoreload:617] [INFO]- Watching for file changes with StatReloader
+27/Dec/2020 15:36:15 [MainThread:4697265600] [django.utils.autoreload:240] [INFO]- /Users/kobetian/RenogyPyPro/config/settings.py changed, reloading.
+27/Dec/2020 15:36:16 [MainThread:4733060544] [django.utils.autoreload:617] [INFO]- Watching for file changes with StatReloader
+27/Dec/2020 19:16:38 [MainThread:4733060544] [django.utils.autoreload:240] [INFO]- /Users/kobetian/RenogyPyPro/config/settings.py changed, reloading.
+27/Dec/2020 19:16:39 [MainThread:4710372800] [django.utils.autoreload:617] [INFO]- Watching for file changes with StatReloader
+27/Dec/2020 19:16:51 [MainThread:4710372800] [django.utils.autoreload:240] [INFO]- /Users/kobetian/RenogyPyPro/config/settings.py changed, reloading.
+27/Dec/2020 19:16:52 [MainThread:4512454080] [django.utils.autoreload:617] [INFO]- Watching for file changes with StatReloader
+27/Dec/2020 19:17:16 [MainThread:4512454080] [django.utils.autoreload:240] [INFO]- /Users/kobetian/RenogyPyPro/config/settings.py changed, reloading.
+27/Dec/2020 19:17:16 [MainThread:4665570752] [django.utils.autoreload:617] [INFO]- Watching for file changes with StatReloader
+27/Dec/2020 19:20:40 [MainThread:4665570752] [django.utils.autoreload:240] [INFO]- /Users/kobetian/RenogyPyPro/config/settings.py changed, reloading.
+27/Dec/2020 19:20:40 [MainThread:4474226112] [django.utils.autoreload:617] [INFO]- Watching for file changes with StatReloader
+27/Dec/2020 19:21:29 [MainThread:4671878592] [django.utils.autoreload:617] [INFO]- Watching for file changes with StatReloader
+27/Dec/2020 19:21:40 [MainThread:4671878592] [django.utils.autoreload:240] [INFO]- /Users/kobetian/RenogyPyPro/config/settings.py changed, reloading.
+27/Dec/2020 19:21:41 [MainThread:4607808960] [django.utils.autoreload:617] [INFO]- Watching for file changes with StatReloader
+27/Dec/2020 19:22:34 [MainThread:4607808960] [django.utils.autoreload:240] [INFO]- /Users/kobetian/RenogyPyPro/config/middleware/BcTokenAuthMiddleWare.py changed, reloading.
+27/Dec/2020 19:22:35 [MainThread:4642530752] [django.utils.autoreload:617] [INFO]- Watching for file changes with StatReloader
+27/Dec/2020 19:23:44 [MainThread:4642530752] [django.utils.autoreload:240] [INFO]- /Users/kobetian/RenogyPyPro/config/middleware/BcTokenAuthMiddleWare.py changed, reloading.
+27/Dec/2020 19:23:45 [MainThread:4603512256] [django.utils.autoreload:617] [INFO]- Watching for file changes with StatReloader
+27/Dec/2020 19:23:52 [Thread-1:123145555664896] [django.server:157] [ERROR]- "GET /api/v1/heatCheck HTTP/1.1" 500 145
+27/Dec/2020 19:25:50 [MainThread:4603512256] [django.utils.autoreload:240] [INFO]- /Users/kobetian/RenogyPyPro/config/middleware/BcTokenAuthMiddleWare.py changed, reloading.
+27/Dec/2020 19:25:51 [MainThread:4518233536] [django.utils.autoreload:617] [INFO]- Watching for file changes with StatReloader
+27/Dec/2020 19:25:56 [Thread-1:123145526751232] [django.server:157] [ERROR]- "GET /api/v1/heatCheck HTTP/1.1" 500 145
+27/Dec/2020 19:26:08 [MainThread:4518233536] [django.utils.autoreload:240] [INFO]- /Users/kobetian/RenogyPyPro/config/middleware/BcTokenAuthMiddleWare.py changed, reloading.
+27/Dec/2020 19:26:08 [MainThread:4550960576] [django.utils.autoreload:617] [INFO]- Watching for file changes with StatReloader
+27/Dec/2020 19:26:12 [Thread-1:123145321537536] [django.server:157] [ERROR]- "GET /api/v1/heatCheck HTTP/1.1" 500 145
+27/Dec/2020 19:26:40 [MainThread:4550960576] [django.utils.autoreload:240] [INFO]- /Users/kobetian/RenogyPyPro/config/middleware/BcTokenAuthMiddleWare.py changed, reloading.
+27/Dec/2020 19:26:40 [MainThread:4352624064] [django.utils.autoreload:617] [INFO]- Watching for file changes with StatReloader
+27/Dec/2020 19:26:44 [Thread-1:123145489272832] [django.server:157] [ERROR]- "GET /api/v1/heatCheck HTTP/1.1" 500 145
+27/Dec/2020 19:27:11 [MainThread:4352624064] [django.utils.autoreload:240] [INFO]- /Users/kobetian/RenogyPyPro/config/middleware/BcTokenAuthMiddleWare.py changed, reloading.
+27/Dec/2020 19:27:12 [MainThread:4532495808] [django.utils.autoreload:617] [INFO]- Watching for file changes with StatReloader
+27/Dec/2020 19:30:03 [MainThread:4532495808] [django.utils.autoreload:240] [INFO]- /Users/kobetian/RenogyPyPro/config/middleware/BcTokenAuthMiddleWare.py changed, reloading.
+27/Dec/2020 19:30:04 [MainThread:4521022912] [django.utils.autoreload:617] [INFO]- Watching for file changes with StatReloader
+27/Dec/2020 19:30:05 [Thread-1:123145492844544] [django.server:157] [ERROR]- "GET /api/v1/heatCheck HTTP/1.1" 500 145
+27/Dec/2020 19:30:16 [MainThread:4521022912] [django.utils.autoreload:240] [INFO]- /Users/kobetian/RenogyPyPro/config/settings.py changed, reloading.
+27/Dec/2020 19:30:17 [MainThread:4610405824] [django.utils.autoreload:617] [INFO]- Watching for file changes with StatReloader
+27/Dec/2020 19:30:21 [Thread-1:123145391415296] [django.server:157] [ERROR]- "GET /api/v1/heatCheck HTTP/1.1" 500 63809
+27/Dec/2020 19:33:01 [MainThread:4610405824] [django.utils.autoreload:240] [INFO]- /Users/kobetian/RenogyPyPro/config/middleware/BcTokenAuthMiddleWare.py changed, reloading.
+27/Dec/2020 19:33:02 [MainThread:4614325696] [django.utils.autoreload:617] [INFO]- Watching for file changes with StatReloader
+27/Dec/2020 19:33:19 [MainThread:4614325696] [django.utils.autoreload:240] [INFO]- /Users/kobetian/RenogyPyPro/config/middleware/BcTokenAuthMiddleWare.py changed, reloading.
+27/Dec/2020 19:33:20 [MainThread:4507350464] [django.utils.autoreload:617] [INFO]- Watching for file changes with StatReloader
+27/Dec/2020 19:33:24 [Thread-1:123145317552128] [django.server:157] [ERROR]- "GET /api/v1/heatCheck HTTP/1.1" 500 63965
+27/Dec/2020 19:36:14 [MainThread:4507350464] [django.utils.autoreload:240] [INFO]- /Users/kobetian/RenogyPyPro/config/middleware/BcTokenAuthMiddleWare.py changed, reloading.
+27/Dec/2020 19:36:15 [MainThread:4655101376] [django.utils.autoreload:617] [INFO]- Watching for file changes with StatReloader
+27/Dec/2020 19:36:19 [Thread-1:123145335222272] [django.server:157] [ERROR]- "GET /api/v1/heatCheck HTTP/1.1" 500 0
+27/Dec/2020 19:36:54 [MainThread:4624233920] [django.utils.autoreload:617] [INFO]- Watching for file changes with StatReloader
+27/Dec/2020 19:36:58 [Thread-1:123145438957568] [django.server:157] [ERROR]- "GET /api/v1/heatCheck HTTP/1.1" 500 0
+27/Dec/2020 19:38:45 [MainThread:4624233920] [django.utils.autoreload:240] [INFO]- /Users/kobetian/RenogyPyPro/config/middleware/BcTokenAuthMiddleWare.py changed, reloading.
+27/Dec/2020 19:38:46 [MainThread:4553807296] [django.utils.autoreload:617] [INFO]- Watching for file changes with StatReloader
+27/Dec/2020 19:38:50 [Thread-1:123145565728768] [django.server:157] [WARNING]- "GET /api/v1/heatCheck HTTP/1.1" 403 0
+27/Dec/2020 19:39:31 [MainThread:4553807296] [django.utils.autoreload:240] [INFO]- /Users/kobetian/RenogyPyPro/config/middleware/BcTokenAuthMiddleWare.py changed, reloading.
+27/Dec/2020 19:39:32 [MainThread:4582270400] [django.utils.autoreload:617] [INFO]- Watching for file changes with StatReloader
+27/Dec/2020 19:39:38 [Thread-1:123145317531648] [django.server:157] [WARNING]- "GET /api/v1/heatCheck HTTP/1.1" 403 0
+27/Dec/2020 19:39:57 [Thread-2:123145322786816] [django.server:157] [WARNING]- "GET /api/v1/heatCheck HTTP/1.1" 403 0
+27/Dec/2020 19:40:11 [MainThread:4582270400] [django.utils.autoreload:240] [INFO]- /Users/kobetian/RenogyPyPro/config/middleware/BcTokenAuthMiddleWare.py changed, reloading.
+27/Dec/2020 19:40:11 [MainThread:4659955136] [django.utils.autoreload:617] [INFO]- Watching for file changes with StatReloader
+27/Dec/2020 19:40:16 [Thread-1:123145496588288] [django.server:157] [WARNING]- "GET /api/v1/heatCheck HTTP/1.1" 403 20
+27/Dec/2020 19:41:52 [MainThread:4659955136] [django.utils.autoreload:240] [INFO]- /Users/kobetian/RenogyPyPro/config/middleware/BcTokenAuthMiddleWare.py changed, reloading.
+27/Dec/2020 19:41:53 [MainThread:4668622272] [django.utils.autoreload:617] [INFO]- Watching for file changes with StatReloader
+27/Dec/2020 19:45:16 [MainThread:4668622272] [django.utils.autoreload:240] [INFO]- /Users/kobetian/RenogyPyPro/config/middleware/BcTokenAuthMiddleWare.py changed, reloading.
+27/Dec/2020 19:45:16 [MainThread:4555085248] [django.utils.autoreload:617] [INFO]- Watching for file changes with StatReloader
+27/Dec/2020 19:46:17 [MainThread:4555085248] [django.utils.autoreload:240] [INFO]- /Users/kobetian/RenogyPyPro/config/middleware/BcTokenAuthMiddleWare.py changed, reloading.
+27/Dec/2020 19:46:17 [MainThread:4459951552] [django.utils.autoreload:617] [INFO]- Watching for file changes with StatReloader
+27/Dec/2020 19:46:59 [MainThread:4459951552] [django.utils.autoreload:240] [INFO]- /Users/kobetian/RenogyPyPro/config/middleware/BcTokenAuthMiddleWare.py changed, reloading.
+27/Dec/2020 19:47:00 [MainThread:4567631296] [django.utils.autoreload:617] [INFO]- Watching for file changes with StatReloader
+27/Dec/2020 19:47:08 [Thread-1:123145422209024] [django.server:157] [WARNING]- "GET /api/v1/heatCheck HTTP/1.1" 403 51
+27/Dec/2020 19:47:39 [MainThread:4567631296] [django.utils.autoreload:240] [INFO]- /Users/kobetian/RenogyPyPro/config/middleware/BcTokenAuthMiddleWare.py changed, reloading.
+27/Dec/2020 19:47:40 [MainThread:4606821824] [django.utils.autoreload:617] [INFO]- Watching for file changes with StatReloader
+27/Dec/2020 19:47:49 [Thread-1:123145367076864] [django.server:157] [WARNING]- "GET /api/v1/heatCheck HTTP/1.1" 403 50
+27/Dec/2020 19:48:11 [MainThread:4606821824] [django.utils.autoreload:240] [INFO]- /Users/kobetian/RenogyPyPro/config/middleware/BcTokenAuthMiddleWare.py changed, reloading.
+27/Dec/2020 19:48:11 [MainThread:4501145024] [django.utils.autoreload:617] [INFO]- Watching for file changes with StatReloader
+27/Dec/2020 19:48:16 [Thread-1:123145351823360] [django.server:157] [WARNING]- "GET /api/v1/heatCheck HTTP/1.1" 403 53
+27/Dec/2020 19:48:23 [MainThread:4501145024] [django.utils.autoreload:240] [INFO]- /Users/kobetian/RenogyPyPro/config/middleware/BcTokenAuthMiddleWare.py changed, reloading.
+27/Dec/2020 19:48:23 [MainThread:4477539776] [django.utils.autoreload:617] [INFO]- Watching for file changes with StatReloader
+27/Dec/2020 19:48:29 [Thread-1:123145495150592] [django.server:157] [WARNING]- "GET /api/v1/heatCheck HTTP/1.1" 403 52
+27/Dec/2020 19:53:28 [MainThread:4477539776] [django.utils.autoreload:240] [INFO]- /Users/kobetian/RenogyPyPro/config/middleware/BcTokenAuthMiddleWare.py changed, reloading.
+27/Dec/2020 19:53:29 [MainThread:4609320384] [django.utils.autoreload:617] [INFO]- Watching for file changes with StatReloader
+27/Dec/2020 20:03:18 [MainThread:4609320384] [django.utils.autoreload:240] [INFO]- /Users/kobetian/RenogyPyPro/applications/core/orders/views.py changed, reloading.
+27/Dec/2020 20:03:19 [MainThread:4729931200] [django.utils.autoreload:617] [INFO]- Watching for file changes with StatReloader
+27/Dec/2020 20:13:02 [MainThread:4729931200] [django.utils.autoreload:240] [INFO]- /Users/kobetian/RenogyPyPro/config/middleware/BcTokenAuthMiddleWare.py changed, reloading.
+27/Dec/2020 20:13:03 [MainThread:4559222208] [django.utils.autoreload:617] [INFO]- Watching for file changes with StatReloader
+27/Dec/2020 20:14:08 [MainThread:4559222208] [django.utils.autoreload:240] [INFO]- /Users/kobetian/RenogyPyPro/applications/core/orders/views.py changed, reloading.
+27/Dec/2020 20:14:09 [MainThread:4466087360] [django.utils.autoreload:617] [INFO]- Watching for file changes with StatReloader
+27/Dec/2020 20:14:48 [MainThread:4466087360] [django.utils.autoreload:240] [INFO]- /Users/kobetian/RenogyPyPro/applications/core/orders/views.py changed, reloading.
+27/Dec/2020 20:14:49 [MainThread:4381627840] [django.utils.autoreload:617] [INFO]- Watching for file changes with StatReloader
+27/Dec/2020 20:23:57 [MainThread:4381627840] [django.utils.autoreload:240] [INFO]- /Users/kobetian/RenogyPyPro/applications/core/orders/views.py changed, reloading.
+27/Dec/2020 20:23:58 [MainThread:4609435072] [django.utils.autoreload:617] [INFO]- Watching for file changes with StatReloader
+27/Dec/2020 20:25:54 [MainThread:4609435072] [django.utils.autoreload:240] [INFO]- /Users/kobetian/RenogyPyPro/applications/core/orders/views.py changed, reloading.
+27/Dec/2020 20:25:55 [MainThread:4658054592] [django.utils.autoreload:617] [INFO]- Watching for file changes with StatReloader
+27/Dec/2020 20:27:50 [MainThread:4658054592] [django.utils.autoreload:240] [INFO]- /Users/kobetian/RenogyPyPro/applications/core/orders/views.py changed, reloading.
+27/Dec/2020 20:27:50 [MainThread:4622792128] [django.utils.autoreload:617] [INFO]- Watching for file changes with StatReloader

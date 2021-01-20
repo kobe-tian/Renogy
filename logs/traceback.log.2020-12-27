@@ -1,0 +1,71 @@
+27/Dec/2020 19:23:52 [Thread-1:123145555664896] [django.request:230] [ERROR]- Internal Server Error: /api/v1/heatCheck
+Traceback (most recent call last):
+  File "/Users/kobetian/.virtualenvs/Renogyro/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/kobetian/.virtualenvs/Renogyro/lib/python3.6/site-packages/django/utils/deprecation.py", line 113, in __call__
+    response = self.process_request(request)
+  File "/Users/kobetian/RenogyPyPro/config/middleware/BcTokenAuthMiddleWare.py", line 11, in process_request
+    raise PermissionError("Forbidden user agent")
+PermissionError: Forbidden user agent
+27/Dec/2020 19:25:55 [Thread-1:123145526751232] [django.request:230] [ERROR]- Internal Server Error: /api/v1/heatCheck
+Traceback (most recent call last):
+  File "/Users/kobetian/.virtualenvs/Renogyro/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/kobetian/.virtualenvs/Renogyro/lib/python3.6/site-packages/django/utils/deprecation.py", line 113, in __call__
+    response = self.process_request(request)
+  File "/Users/kobetian/RenogyPyPro/config/middleware/BcTokenAuthMiddleWare.py", line 11, in process_request
+    raise PermissionError("Forbidden user agent")
+PermissionError: Forbidden user agent
+27/Dec/2020 19:26:12 [Thread-1:123145321537536] [django.request:230] [ERROR]- Internal Server Error: /api/v1/heatCheck
+Traceback (most recent call last):
+  File "/Users/kobetian/.virtualenvs/Renogyro/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/kobetian/.virtualenvs/Renogyro/lib/python3.6/site-packages/django/utils/deprecation.py", line 113, in __call__
+    response = self.process_request(request)
+  File "/Users/kobetian/RenogyPyPro/config/middleware/BcTokenAuthMiddleWare.py", line 12, in process_request
+    raise PermissionError("Forbidden user agent")
+PermissionError: Forbidden user agent
+27/Dec/2020 19:26:44 [Thread-1:123145489272832] [django.request:230] [ERROR]- Internal Server Error: /api/v1/heatCheck
+Traceback (most recent call last):
+  File "/Users/kobetian/.virtualenvs/Renogyro/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/kobetian/.virtualenvs/Renogyro/lib/python3.6/site-packages/django/utils/deprecation.py", line 113, in __call__
+    response = self.process_request(request)
+  File "/Users/kobetian/RenogyPyPro/config/middleware/BcTokenAuthMiddleWare.py", line 13, in process_request
+    raise PermissionError("Forbidden user agent")
+PermissionError: Forbidden user agent
+27/Dec/2020 19:30:05 [Thread-1:123145492844544] [django.request:230] [ERROR]- Internal Server Error: /api/v1/heatCheck
+Traceback (most recent call last):
+  File "/Users/kobetian/.virtualenvs/Renogyro/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/kobetian/.virtualenvs/Renogyro/lib/python3.6/site-packages/django/utils/deprecation.py", line 116, in __call__
+    response = self.process_response(request, response)
+  File "/Users/kobetian/.virtualenvs/Renogyro/lib/python3.6/site-packages/django/middleware/common.py", line 113, in process_response
+    response['Content-Length'] = str(len(response.content))
+  File "/Users/kobetian/.virtualenvs/Renogyro/lib/python3.6/site-packages/django/template/response.py", line 127, in content
+    'The response content must be rendered before it can be accessed.'
+django.template.response.ContentNotRenderedError: The response content must be rendered before it can be accessed.
+27/Dec/2020 19:30:21 [Thread-1:123145391415296] [django.request:230] [ERROR]- Internal Server Error: /api/v1/heatCheck
+Traceback (most recent call last):
+  File "/Users/kobetian/.virtualenvs/Renogyro/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/kobetian/.virtualenvs/Renogyro/lib/python3.6/site-packages/django/utils/deprecation.py", line 116, in __call__
+    response = self.process_response(request, response)
+  File "/Users/kobetian/.virtualenvs/Renogyro/lib/python3.6/site-packages/django/middleware/common.py", line 113, in process_response
+    response['Content-Length'] = str(len(response.content))
+  File "/Users/kobetian/.virtualenvs/Renogyro/lib/python3.6/site-packages/django/template/response.py", line 127, in content
+    'The response content must be rendered before it can be accessed.'
+django.template.response.ContentNotRenderedError: The response content must be rendered before it can be accessed.
+27/Dec/2020 19:33:24 [Thread-1:123145317552128] [django.request:230] [ERROR]- Internal Server Error: /api/v1/heatCheck
+Traceback (most recent call last):
+  File "/Users/kobetian/.virtualenvs/Renogyro/lib/python3.6/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/kobetian/.virtualenvs/Renogyro/lib/python3.6/site-packages/django/utils/deprecation.py", line 113, in __call__
+    response = self.process_request(request)
+  File "/Users/kobetian/RenogyPyPro/config/middleware/BcTokenAuthMiddleWare.py", line 15, in process_request
+    return HttpResponse(status=403, data="Forbidden user agent")
+  File "/Users/kobetian/.virtualenvs/Renogyro/lib/python3.6/site-packages/django/http/response.py", line 296, in __init__
+    super().__init__(*args, **kwargs)
+TypeError: __init__() got an unexpected keyword argument 'data'
+27/Dec/2020 19:36:19 [Thread-1:123145335222272] [django.request:230] [ERROR]- Internal Server Error: /api/v1/heatCheck
+27/Dec/2020 19:36:58 [Thread-1:123145438957568] [django.request:230] [ERROR]- Internal Server Error: /api/v1/heatCheck
