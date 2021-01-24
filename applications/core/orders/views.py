@@ -54,6 +54,14 @@ class OrderRefundApiViews(APIView):
             )
             return Response(result)
 
+        if order.get("status") != "Awaiting Fulfillment":
+            result = ObjectResp.response(
+                code=RespRET.HTTP_RET_ORDER_STATUS_ERROR,
+                message=RET_MAP[RespRET.HTTP_RET_ORDER_STATUS_ERROR],
+                **{}
+            )
+            return Response(result)
+
         payment_method = order.get("payment_method")
 
         order_products = order_request.get_order_product_by_order_id(
